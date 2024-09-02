@@ -30,3 +30,4 @@ C:\Users\te-ti\OneDrive\Codigos_Fonte\CSHARP\Udemy Course C# COMPLETO Nelio Alve
 C:\Users\te-ti\OneDrive\Codigos_Fonte\CSHARP\Udemy Course C# COMPLETO Nelio Alves\18_ProjetoSistemaWebComASPNET\Pratica\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\SalesWebMvc.dll
 C:\Users\te-ti\OneDrive\Codigos_Fonte\CSHARP\Udemy Course C# COMPLETO Nelio Alves\18_ProjetoSistemaWebComASPNET\Pratica\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\SalesWebMvc.pdb
 C:\Users\te-ti\OneDrive\Codigos_Fonte\CSHARP\Udemy Course C# COMPLETO Nelio Alves\18_ProjetoSistemaWebComASPNET\Pratica\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\SalesWebMvc.csproj.CopyComplete
+C:\Users\te-ti\OneDrive\Codigos_Fonte\CSHARP\Udemy Course C# COMPLETO Nelio Alves\18_ProjetoSistemaWebComASPNET\Pratica\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Index.g.cshtml.cs
