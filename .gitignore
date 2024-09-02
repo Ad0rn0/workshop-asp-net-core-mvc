@@ -60,6 +60,7 @@ __pycache__/
 # Ignore C# build files
 bin/
 obj/
+
 *.pdb
 *.userprefs
 *.pidb
@@ -103,3 +104,4 @@ temp/
 # Ignore generated files by frontend build tools
 /public/
 .vs
+
