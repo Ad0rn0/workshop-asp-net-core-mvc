@@ -1,9 +1,10 @@
 ﻿@model SalesWebMvc.Models.ViewModels.SellerFormViewModel
 @{
     ViewData["Title"] = "Edit";
+    ViewData["ModelName"] = nameof(Model.Seller);
 }
 
-<h2>@ViewData["Title"]</h2>
+<h2>@ViewData["Title"] - @ViewData["ModelName"]</h2>
 
 <h4>Seller</h4>
 <hr />

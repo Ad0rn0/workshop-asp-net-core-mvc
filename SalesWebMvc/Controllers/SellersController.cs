@@ -115,6 +115,8 @@ namespace SalesWebMvc.Controllers
             List<Department> departments = await _departmentService.FindAllAsync();
             SellerFormViewModel viewModel = new SellerFormViewModel { Seller = seller, Departments = departments };
 
+            ViewData["ModelName"] = nameof(Seller);
+
             return View(viewModel);
         }
 
