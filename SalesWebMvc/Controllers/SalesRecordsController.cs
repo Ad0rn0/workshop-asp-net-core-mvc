@@ -37,9 +37,22 @@ namespace SalesWebMvc.Controllers
             return View(sales);
         }
 
-        public IActionResult GroupingSearch()
+        public async Task<IActionResult> GroupingSearch(DateTime? firstDate, DateTime? lastDate)
         {
-            return View();
+            if (firstDate == null)
+            {
+                firstDate = DateTime.Parse("01/01/1000");
+            }
+            if (!lastDate.HasValue)
+            {
+                lastDate = new DateTime(9999, 12, 31);
+            }
+
+            ViewData["firstDate"] = firstDate.Value.ToString("yyyy-MM-dd");
+            ViewData["lastDate"] = lastDate.Value.ToString("yyyy-MM-dd");
+            var sales = await _salesRecordsService.FindByDateGroupingAsync(firstDate, lastDate);
+
+            return View(sales);
         }
     }
 }
